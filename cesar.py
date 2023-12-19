@@ -1,5 +1,9 @@
 import string
 
+"""
+random.seed() Permet de fixer un nombre aléatoire 
+"""
+
 string.printable = string.printable.replace('\r','é')
 
 def caesar_cipher(message, key):
