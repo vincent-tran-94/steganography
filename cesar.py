@@ -1,5 +1,7 @@
 import string
 
+string.printable = string.printable.replace('\r','é')
+
 def caesar_cipher(message, key):
 	"""
 	this function takes a message and key then it generates a crypted message
